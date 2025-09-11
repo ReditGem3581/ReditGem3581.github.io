@@ -12,7 +12,7 @@ labels:
 summary: "An app that matches real-life problems or keywords with Scripture references."
 ---
 
-<img class="img-fluid" src="../img/bible-app/bible-header.png">
+<img class="img-fluid" src="../img/img/19_0503_BIBLE_Open-Secrets-What-I-Found-When-I-Found-the-Bible_1021x640.jpg">
 
 This project started from a simple but powerful question: *what if finding Scripture could be as quick as searching Google?* I wanted to create a Bible Study app that allows users to input a problem, struggle, or keyword—such as “anxiety” or “forgiveness”—and instantly receive relevant verses. Unlike a traditional concordance, the app is designed to understand nuance in phrasing and return meaningful, contextual matches.  
 
