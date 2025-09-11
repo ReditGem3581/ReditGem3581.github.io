@@ -12,7 +12,7 @@ labels:
 summary: "An app that automatically generates progressive warmup sets based on a target weight."
 ---
 
-<img class="img-fluid" src="../img/gym-app/gym-header.png">
+<img class="img-fluid" src="../img/bench-press-tips_jacked-guy-benching.jpg">
 
 Weightlifting is as much about preparation as performance. I noticed that many lifters—including myself—struggle to plan their warmup sets effectively. If my working set is 225 pounds, how should I structure the sets leading up to it? Should I jump straight from the bar to heavy weights, or gradually build up? My app solves this by generating three progressive warmup sets automatically once the user inputs their target weight.  
 
