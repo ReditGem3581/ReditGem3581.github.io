@@ -1,3 +1,15 @@
+---
+layout: essay
+type: essay
+title: "Solving Problems With Apps"
+# All dates must be YYYY-MM-DD format!
+date: September 10th, 2025
+published: true
+labels:
+  - Coding
+  - TypeScript
+---
+
 # Typescript: Power in Coding
 
 ## My Background Before TypeScript
