@@ -4,7 +4,7 @@ type: project
 image: img/wp15410142-the-chosen-pc-wallpapers.jpg
 title: "Discipleship"
 date: 2025
-published: true
+published: false
 labels:
   - C++
 summary: "A Bible app"
