@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/bench-press-tips_jacked-guy-benching.jpg
-title: "Gym Warmup Calculator"
+title: "Gym Warmup Calculator"   # Title can have spaces; filename should not
 date: 2025
 published: true
 labels:
