@@ -1,0 +1,23 @@
+---
+layout: project
+type: project
+image: img/meal-app/meal-square.png
+title: "AI-Powered Meal Planner"
+date: 2025
+published: true
+labels:
+  - Python
+  - AI
+  - NutritionTech
+summary: "A tool that organizes macros and generates meal plans from available food."
+---
+
+<img class="img-fluid" src="../img/meal-app/meal-header.png">
+
+Meal planning is often the most tedious part of fitness. Counting macros, balancing calories, and figuring out what to cook can take more energy than the workout itself. My AI-Powered Meal Planner aims to remove this friction. The app accepts an inventory of foods the user already has and their macro goals, then outputs a daily meal plan that balances both.  
+
+I focused on backend development, where I designed logic to calculate macros dynamically and generate balanced meals. Instead of building a chatbot, I wanted a silent assistant that produced results in a straightforward way. On the technical side, I integrated AI libraries for optimization, but prioritized efficiency and clarity in the final output.  
+
+This project taught me how to merge data science principles with user experience design. I learned how to balance flexibility with accuracy—users may have inconsistent pantry data, so the system must adapt while still producing valid plans. The process also deepened my understanding of applied AI outside of chat-based contexts, showing how automation can serve everyday needs.  
+
+Source: <a href="https://github.com/reditgem3581/meal-planner-app"><i class="large github icon "></i>reditgem3581/meal-planner-app</a>
