@@ -55,16 +55,16 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Japanese (expected Spring, 2026)",
       "studyType": "Bachelor's of Arts",
-      "startDate": "Summer 2024",
-      "endDate": "Present",
+      "startDate": "6/2024",
+      "endDate": "Now",
       "courses": []
     },
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2026)",
       "studyType": "Minor",
-      "startDate": "Summer 2024",
-      "endDate": "Present",
+      "startDate": "6/2024",
+      "endDate": "Now",
       "courses": []
     }
   ],
@@ -72,15 +72,15 @@
     {
       "company": "Vans",
       "position": "Sales Associate",
-      "startDate": "November 2024",
+      "startDate": "11/2024",
       "endDate": "Present",
       "summary": "A humble shoe salesman that connects to customers well"
     },
     {
       "company": "The Colony Aquatic Park",
       "position": "Head Guard",
-      "startDate": "June 3rd, 2021",
-      "endDate": "July 30th, 2023",
+      "startDate": "7/3/21",
+      "endDate": "7/30/23",
       "summary": "Coordinated a team of 9+ lifeguards, managed pool chemicals, made sure patrons were safe and happy."
     }
   ],
@@ -88,8 +88,8 @@
     {
       "organization": "Inspire Church Honolulu",
       "position": "Setup Crew, Teardown Crew, and Prayer Team",
-      "startDate": "March, 2025",
-      "endDate": "Present",
+      "startDate": "3/2025",
+      "endDate": "Now",
       "summary": "Setup the church, prayed during service for others, and helped with the set down of all the equipment"
     }
   ],
