@@ -7,11 +7,29 @@
     "phone": "972-520-2232",
     "website": "https://reditgem3581.github.io",
     "summary": "I am studying Japanese with a minor in Computer Science at the University of Hawaii. I expect to graduate in Spring, 2026.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "ReditGem3581", "url": "https://github.com/ReditGem3581" },
-      { "network": "linkedin", "username": "Adones Morales", "url": "https://www.linkedin.com/in/adones-morales-81b0a22a6" },
-      { "network": "instagram", "username": "@adones_actual" }
+      {
+        "network": "github",
+        "username": "ReditGem3581",
+        "url": "https://github.com/ReditGem3581"
+      },
+      {
+        "network": "linkedin",
+        "username": "Adones Morales",
+        "url": "https://www.linkedin.com/in/adones-morales-81b0a22a6"
+      },
+      {
+        "network": "instagram",
+        "username": "@adones_actual",
+        "url": ""
+      }
     ]
   },
   "interests": [
@@ -25,11 +43,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Japanese", "C", "C++", "Java", "Javascript" ]
+      "keywords": ["Japanese", "C", "C++", "Java", "Javascript"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": ["Windows 11", "Git/GitHub"]
     }
   ],
   "education": [
@@ -39,17 +57,15 @@
       "studyType": "Bachelor's of Arts",
       "startDate": "Summer 2024",
       "endDate": "Present",
-      "courses": [
-      ]
-    }
+      "courses": []
+    },
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2026)",
       "studyType": "Minor",
       "startDate": "Summer 2024",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
@@ -58,14 +74,14 @@
       "position": "Sales Associate",
       "startDate": "November 2024",
       "endDate": "Present",
-      "summary": "A humble shoe salesman that connects to customers well",
+      "summary": "A humble shoe salesman that connects to customers well"
     },
     {
       "company": "The Colony Aquatic Park",
       "position": "Head Guard",
       "startDate": "June 3rd, 2021",
       "endDate": "July 30th, 2023",
-      "summary": "Coordinated a team of 9+ lifeguards, managed pool chemicals, made sure patrons were safe and happy.",
+      "summary": "Coordinated a team of 9+ lifeguards, managed pool chemicals, made sure patrons were safe and happy."
     }
   ],
   "volunteer": [
@@ -74,13 +90,13 @@
       "position": "Setup Crew, Teardown Crew, and Prayer Team",
       "startDate": "March, 2025",
       "endDate": "Present",
-      "summary": "Setup the church, prayed during service for others, and helped with the set down of all the equipment",
-    },
+      "summary": "Setup the church, prayed during service for others, and helped with the set down of all the equipment"
+    }
   ],
   "reference": [
     {
-      "name": "Ashley Vega"
-      "contact information": "Avalible upon request"
+      "name": "Ashley Vega",
+      "contact information": "Available upon request"
     }
   ]
 }
