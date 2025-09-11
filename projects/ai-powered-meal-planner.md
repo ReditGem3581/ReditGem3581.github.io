@@ -12,7 +12,7 @@ labels:
 summary: "A tool that organizes macros and generates meal plans from available food."
 ---
 
-<img class="img-fluid" src="../img/meal-app/meal-header.png">
+<img class="img-fluid" src="../img/maxresdefault.jpg">
 
 Meal planning is often the most tedious part of fitness. Counting macros, balancing calories, and figuring out what to cook can take more energy than the workout itself. My AI-Powered Meal Planner aims to remove this friction. The app accepts an inventory of foods the user already has and their macro goals, then outputs a daily meal plan that balances both.  
 
