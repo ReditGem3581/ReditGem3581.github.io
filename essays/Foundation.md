@@ -11,8 +11,6 @@ labels:
   - Standards
 ---
 
-# Friction in Foundation
-
 If code is a building, then coding standards are the foundation. Without a foundation, a building might stand for a little while, but it will collapse once people start adding weight to it. Software projects work the same way. The bigger the project, the more people touch it, and the more fragile it becomes without shared rules. To me, coding standards aren't just helpful but I say that they actually define a language. They give you something to hold on to, a grammar that makes sense of the syntax.
 
 This is why I agree with the idea that coding standards are vital for software development. They’re the structure that makes code reliable, shareable, and easier to learn.
