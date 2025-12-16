@@ -1,0 +1,234 @@
+/* Dark Green Theme with Animations */
+
+/* Use Open Sans as the default sans serif font. */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+
+/* Override Bootstrap and TechFolio variables for dark theme */
+:root {
+  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-body-color: #ffffff;
+  --bs-body-bg: #000000;
+  --bs-link-color: #00ff00;
+  --bs-link-hover-color: #00cc00;
+  --bs-primary: #00ff00;
+  --bs-secondary: #ffffff;
+  --bs-light: #333333;
+  --bs-dark: #000000;
+  --bs-white: #ffffff;
+  --bs-gray: #666666;
+  --bs-gray-100: #222222;
+  --bs-gray-200: #333333;
+  --bs-gray-500: #888888;
+  --tf-pill-bg: #00ff00;
+  --tf-icon-fill: #ffffff;
+  --tf-icon-hover: #00ff00;
+  --tf-page-bg-color: #000000;
+  --tf-footer-bg-color: #111111;
+  --tf-projects-bg-color: #111111;
+}
+
+/* Global transitions */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Body fade-in animation */
+body {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Format social media icons with hover animation */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-icon-fill);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+  transition: 0.3s;
+  transform: scale(1);
+}
+
+.tf-social:hover {
+  fill: var(--tf-icon-hover);
+  transform: scale(1.1);
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0) scale(1.1); }
+  40% { transform: translateY(-10px) scale(1.1); }
+  60% { transform: translateY(-5px) scale(1.1); }
+}
+
+/* Links with glow effect */
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+a:hover {
+  text-shadow: 0 0 10px #00ff00;
+}
+
+/* Cards with slide-in animation */
+.card {
+  background-color: #111111;
+  border: 1px solid #00ff00;
+  color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 255, 0, 0.3);
+}
+
+/* Buttons with pulse animation */
+.btn {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Images with zoom effect */
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation bar slide down */
+.navbar {
+  animation: slideDown 0.8s ease-out;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+/* Headings with typewriter effect */
+h1, h2, h3, h4, h5, h6 {
+  overflow: hidden;
+  border-right: 2px solid #00ff00;
+  white-space: nowrap;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #00ff00; }
+}
+
+/* List items fade in */
+li {
+  animation: fadeInUp 0.5s ease-out;
+  animation-fill-mode: both;
+}
+
+li:nth-child(1) { animation-delay: 0.1s; }
+li:nth-child(2) { animation-delay: 0.2s; }
+li:nth-child(3) { animation-delay: 0.3s; }
+li:nth-child(4) { animation-delay: 0.4s; }
+li:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form inputs with focus glow */
+.form-control:focus {
+  border-color: #00ff00;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+/* Simplify the styling of the bottom of Essay cards. */
+.card-footer {
+  background-color: #111111;
+  border-top: 1px solid #00ff00;
+}
+
+/* Page transitions */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Scroll animations */
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.animate-left {
+  animation: slideInLeft 1s ease-out;
+}
+
+.animate-right {
+  animation: slideInRight 1s ease-out;
+}
+
+/* Floating animation for badges */
+.badge {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card:hover {
+    transform: none;
+  }
+
+  img:hover {
+    transform: none;
+  }
+
+  .tf-social:hover {
+    transform: scale(1.05);
+  }
+}
