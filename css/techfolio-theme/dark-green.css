@@ -54,9 +54,9 @@ body {
 }
 
 .tf-social:hover {
-  fill: var(--tf-icon-hover);
+  fill: #00ffff;
   transform: scale(1.1);
-  animation: bounce 0.5s;
+  filter: drop-shadow(0 0 5px #0000ff);
 }
 
 @keyframes bounce {
@@ -88,15 +88,18 @@ a:hover {
   box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
 }
 
-/* Buttons with pulse animation */
+/* Buttons with gradient background */
 .btn {
+  color: white !important;
+  border: 2px solid white !important;
+  background: linear-gradient(to right, #2b00bf, #a61414) !important;
   transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
 }
 
 .btn:hover {
-  animation: pulse 1s infinite;
+  background: linear-gradient(to right, #a61414, #2b00bf) !important;
+  border-color: #8700ff !important;
+  box-shadow: 0 0 10px #8700ff;
 }
 
 @keyframes pulse {
