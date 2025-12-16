@@ -10,8 +10,6 @@ labels:
   - ICS 314
 ---
 
-<img width="320px" class="rounded float-start pe-4" src="../img/molly-maluhia.jpeg" alt="Stopwatch timing development">
-
 In the world of software development, time is both your most valuable resource and your biggest enemy. You think you can knock out a feature in an hour, only to find yourself debugging at 3 AM. That's where effort estimation comes in—not as a crystal ball, but as a planning tool that helps you manage your project without burning out.
 
 For my ICS 314 final project, Tithr, I dove into issue-driven project management (IDPM) effort estimation. It wasn't about predicting the future perfectly; it was about creating a framework to track progress, adjust plans, and learn from mistakes. Here's how that unfolded.

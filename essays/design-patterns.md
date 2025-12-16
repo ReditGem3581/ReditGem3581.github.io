@@ -10,8 +10,6 @@ labels:
   - ICS 314
 ---
 
-<img width="320px" class="rounded float-start pe-4" src="../img/molly-maluhia.jpeg" alt="Blueprint architecture">
-
 When you walk into a bookstore, the shelves are organized the same way regardless of which store you visit. Fiction on one side, non-fiction on another, checkout near the exit. You don't have to ask where things are—the pattern is familiar. If a bookstore owner invented a completely novel layout every time, customers would be frustrated and lost. Instead, they follow a proven blueprint: a *pattern* that works.
 
 Software design is no different. A design pattern is a reusable solution to a common problem that arises during software design. It's not code you copy-paste; it's a template for *how* to structure your code to solve a recurring challenge elegantly.
