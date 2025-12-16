@@ -3,14 +3,14 @@
 /* Use Open Sans as the default sans serif font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
-/* Override Bootstrap and TechFolio variables for dark theme */
+/* Override Bootstrap and TechFolio variables for dark cyan theme */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-body-color: #ffffff;
   --bs-body-bg: #000000;
-  --bs-link-color: #00ff00;
-  --bs-link-hover-color: #00cc00;
-  --bs-primary: #00ff00;
+  --bs-link-color: #00ffff;
+  --bs-link-hover-color: #00cccc;
+  --bs-primary: #00ffff;
   --bs-secondary: #ffffff;
   --bs-light: #333333;
   --bs-dark: #000000;
@@ -19,9 +19,9 @@
   --bs-gray-100: #222222;
   --bs-gray-200: #333333;
   --bs-gray-500: #888888;
-  --tf-pill-bg: #00ff00;
+  --tf-pill-bg: #00ffff;
   --tf-icon-fill: #ffffff;
-  --tf-icon-hover: #00ff00;
+  --tf-icon-hover: #00ffff;
   --tf-page-bg-color: #000000;
   --tf-footer-bg-color: #111111;
   --tf-projects-bg-color: #111111;
@@ -72,20 +72,20 @@ a {
 }
 
 a:hover {
-  text-shadow: 0 0 10px #00ff00;
+  text-shadow: 0 0 10px #00ffff;
 }
 
 /* Cards with slide-in animation */
 .card {
   background-color: #111111;
-  border: 1px solid #00ff00;
+  border: 1px solid #00ffff;
   color: #ffffff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 255, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
 }
 
 /* Buttons with pulse animation */
@@ -127,9 +127,9 @@ img:hover {
 /* Headings with typewriter effect */
 h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
-  border-right: 2px solid #00ff00;
+  border-right: 2px solid #00ffff;
   white-space: nowrap;
-  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end 2s;
 }
 
 @keyframes typing {
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: #00ff00; }
+  50% { border-color: #00ffff; }
 }
 
 /* List items fade in */
@@ -167,14 +167,14 @@ li:nth-child(5) { animation-delay: 0.5s; }
 
 /* Form inputs with focus glow */
 .form-control:focus {
-  border-color: #00ff00;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  border-color: #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }
 
 /* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
   background-color: #111111;
-  border-top: 1px solid #00ff00;
+  border-top: 1px solid #00ffff;
 }
 
 /* Page transitions */
