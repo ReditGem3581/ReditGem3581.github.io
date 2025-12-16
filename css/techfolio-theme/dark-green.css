@@ -8,8 +8,8 @@
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-body-color: #ffffff;
   --bs-body-bg: #000000;
-  --bs-link-color: #00ffff;
-  --bs-link-hover-color: #00cccc;
+  --bs-link-color: #8700ff;
+  --bs-link-hover-color: #a61414;
   --bs-primary: #00ffff;
   --bs-secondary: #ffffff;
   --bs-light: #333333;
@@ -27,9 +27,10 @@
   --tf-projects-bg-color: #111111;
 }
 
-/* Global transitions */
-* {
-  transition: all 0.3s ease;
+/* Global gradient background */
+html, body {
+  background: linear-gradient(to bottom, #2b00bf, #a61414) !important;
+  color: #ffffff;
 }
 
 /* Body fade-in animation */
@@ -54,7 +55,7 @@ body {
 }
 
 .tf-social:hover {
-  fill: #00ffff;
+  fill: #8700ff;
   transform: scale(1.1);
   filter: drop-shadow(0 0 5px #0000ff);
 }
@@ -72,20 +73,20 @@ a {
 }
 
 a:hover {
-  text-shadow: 0 0 10px #00ffff;
+  text-shadow: 0 0 10px #8700ff;
 }
 
 /* Cards with slide-in animation */
 .card {
-  background-color: #111111;
-  border: 1px solid #00ffff;
+  background-color: rgba(51, 51, 51, 0.8);
+  border: 1px solid #8700ff;
   color: #ffffff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
+  box-shadow: 0 10px 20px rgba(135, 0, 255, 0.3);
 }
 
 /* Buttons with gradient background */
@@ -167,14 +168,14 @@ li:nth-child(5) { animation-delay: 0.5s; }
 
 /* Form inputs with focus glow */
 .form-control:focus {
-  border-color: #00ffff;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  border-color: #8700ff;
+  box-shadow: 0 0 10px rgba(135, 0, 255, 0.5);
 }
 
 /* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: #111111;
-  border-top: 1px solid #00ffff;
+  background-color: rgba(17, 17, 17, 0.8);
+  border-top: 1px solid #8700ff;
 }
 
 /* Page transitions */
