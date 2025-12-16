@@ -124,12 +124,9 @@ img:hover {
   to { transform: translateY(0); }
 }
 
-/* Headings with typewriter effect */
+/* Headings without typewriter effect */
 h1, h2, h3, h4, h5, h6 {
-  overflow: hidden;
-  border-right: 2px solid #00ffff;
-  white-space: nowrap;
-  animation: typing 2s steps(40, end), blink-caret 0.75s step-end 2s;
+  /* Removed typewriter animation */
 }
 
 @keyframes typing {
